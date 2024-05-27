@@ -1,0 +1,10 @@
+.table-svg {
+    border: 2px solid blue;
+}
+
+.table-rect {
+    fill: none;
+    stroke: #8E8A8A;
+    stroke-width: 10px;
+    border-radius: 200px;
+}

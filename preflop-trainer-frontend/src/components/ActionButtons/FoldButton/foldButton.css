@@ -1,0 +1,17 @@
+.fold-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 32%;
+    border-radius: 20px;
+
+    background-color: #D9D9D9;
+}
+
+.fold-button-text {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}

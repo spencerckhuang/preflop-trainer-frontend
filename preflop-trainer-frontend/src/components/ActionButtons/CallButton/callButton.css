@@ -1,0 +1,17 @@
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 32%;
+    border-radius: 20px;
+    
+    background-color: #565151;
+}
+
+.call-button-text {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}

@@ -1,0 +1,11 @@
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid palegreen;
+    width: 50vw;
+    height: 10%;
+    left: 25%;
+    top: 82vh;
+}
