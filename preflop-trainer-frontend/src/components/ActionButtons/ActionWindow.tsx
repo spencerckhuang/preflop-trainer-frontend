@@ -5,12 +5,23 @@ import CallButton from './CallButton/CallButton';
 import FoldButton from './FoldButton/FoldButton';
 import RaiseButton from './RaiseButton/RaiseButton';
 
-const ActionWindow = () => {
+
+interface ActionWindowProps {
+    processAction: Function;
+}
+
+const ActionWindow: React.FC<ActionWindowProps> = ({ processAction }) => {
     return (
         <div className="container">
-            <FoldButton/>
-            <CallButton/>
-            <RaiseButton/>
+            <FoldButton
+                processAction={processAction}
+            />
+            <CallButton
+                processAction={processAction}
+            />
+            <RaiseButton
+                processAction={processAction}
+            />
             
         </div>
     );

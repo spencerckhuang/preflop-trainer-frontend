@@ -1,0 +1,8 @@
+.miniholecard-container {
+    background-color: #2f2f2f;
+    border: 1px solid white;
+    position: fixed;
+    width: 57.1px;
+    height: 80px;
+    border-radius: 7px;
+}

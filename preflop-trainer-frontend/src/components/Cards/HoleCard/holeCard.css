@@ -1,0 +1,14 @@
+.holecard-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid purple;
+    background-color: white;
+
+    width: 92.8px;
+    height: 130px;
+
+    border-radius: 10px;
+}

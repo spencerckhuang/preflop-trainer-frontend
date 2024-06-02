@@ -1,9 +1,16 @@
 import React from 'react';
 import './callButton.css'
 
-const CallButton = () => {
+interface CallButtonProps {
+    processAction: Function;
+}
+
+const CallButton: React.FC<CallButtonProps> = ({ processAction }) => {
     return (
-        <div className="call-container">
+        <div 
+            className="call-container"
+            onClick={() => {processAction('call')}}
+        >
             <h1 className="call-button-text">Call</h1>
         </div>
     );

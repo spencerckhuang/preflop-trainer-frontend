@@ -1,0 +1,13 @@
+.lj-label-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 8vw;
+    height: 6vh;
+
+    position: absolute;
+
+    border-radius: 10px;
+}
