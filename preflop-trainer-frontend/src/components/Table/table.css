@@ -1,8 +1,14 @@
+.table {
+    
+}
+
 .table-svg {
     border: 2px solid blue;
+    position: fixed;
 }
 
 .table-rect {
+    position: fixed;
     fill: none;
     stroke: #8E8A8A;
     stroke-width: 10px;

@@ -1,0 +1,11 @@
+.range-modal-container {
+    position: fixed;
+    top: 15vh;
+    left: 25vw;
+    width: 50vw;
+    height: 30vw;
+    background-color: white;
+    z-index: 3;
+    border-radius: 10px;
+
+}
