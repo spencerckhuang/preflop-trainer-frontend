@@ -1,0 +1,20 @@
+.range-square-container {
+    border: 1px solid black;
+    position: relative;
+    height: 100%;
+    width: calc(100%/12);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    table-layout: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.range-square-text {
+    user-select: none;
+}

@@ -1,0 +1,13 @@
+.range-row-container {
+    position: relative;
+    /* border: 1px solid orange; */
+    height: calc((100%/12));
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    table-layout: fixed;
+    white-space: nowrap;
+}
